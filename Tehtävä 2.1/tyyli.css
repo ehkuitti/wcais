@@ -1,0 +1,35 @@
+.initial-table-row 
+{
+    border-style: none;
+    text-align: center;
+    align-items: center;
+    font-weight: normal;
+}
+
+.women 
+{
+    text-align: left;
+}
+
+td, th
+{
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    /* border: 0.1; */
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;;
+}
+
+table 
+{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;;
+}
+
+p 
+{
+    text-align: center;
+}
