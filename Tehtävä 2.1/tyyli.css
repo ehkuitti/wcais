@@ -6,6 +6,12 @@
     font-weight: normal;
 }
 
+th 
+{
+    text-align: center;
+    align-items: center;
+}
+
 .women 
 {
     text-align: left;
