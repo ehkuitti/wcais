@@ -1,20 +1,16 @@
-#A, #B, #C, #D 
+body 
 {
-    width: 49vw;
-    box-sizing: border-box;
-    float: left;
-    border: 1px solid blue;
+    display: grid;
+    /*Seuraavissa grid-alkuisissa on tupla-arvot siksi, että ne määrittävät kaksi riviä ja kaksi saraketta (EI SIIS [x, y] -tyylisesti)*/ 
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    margin: 0; /*Poistaa tyhjät välit ruudukon reunoilta.*/
+}
+
+.swot 
+{
     height: 49vh;
-}
-
-#C, #D 
-{
-    clear: left;
-    width: 49vw;
-    box-sizing: border-box;
-}
-
-#D
-{
-    clear: right;
+    width: 49vh;
+    display: flex;
 }
