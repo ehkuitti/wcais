@@ -1,0 +1,36 @@
+nav 
+{
+    background-color: blueviolet;
+}
+
+#miehet, #naiset
+{
+    color: black;
+    border-style: solid 1px;
+    border-radius: 10px;
+}
+
+th 
+{
+    background-color: darkblue;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+tr:nth-child(even)
+{
+    background-color: #ccc;
+}
+
+header, h2, table
+{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a 
+{
+    background-color: darkviolet;
+    border-radius: 10px;
+}
