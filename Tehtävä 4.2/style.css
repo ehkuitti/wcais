@@ -1,0 +1,30 @@
+.container {
+  min-height: 600px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+
+}
+
+.swot {
+  border-color: blue;
+  border-style: groove;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  box-sizing: border-box; /*Lue alta*/
+  align-items: center; /*TÄSSÄ: pystysuuntainen align*/ 
+  justify-content: center; /*TÄSSÄ: leveyssuuntainen align*/
+}
+
+/*The box-sizing: border-box property tells the browser to include the padding and border in the element's total width and height 
+calculation, rather than adding them to the width and height.
+
+By default, when you set the width and height of an element, any padding or border you add to the element increases the overall width and 
+height of the element. This can sometimes lead to unexpected layout issues, especially in situations like creating grids or layouts 
+where precise sizing is important.
+
+By using box-sizing: border-box, you ensure that when you set the width and height of an element, any padding or border you add to 
+it will be included in those dimensions. This makes it easier to create layouts where elements have predictable sizes and behave as 
+expected within their containers. It simplifies the sizing calculations and helps maintain consistency in your designs.*/
