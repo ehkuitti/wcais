@@ -22,9 +22,14 @@ article
     float: left;
 }
 
-main 
+/* main 
 {
     overflow: hidden;
+} */
+
+footer 
+{
+    clear: both;
 }
 
 /* footer 
